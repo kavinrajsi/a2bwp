@@ -1,0 +1,41 @@
+{
+  "name": "aab",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "csscomb": "^4.3.0",
+    "gulp-csscomb": "^3.0.8",
+    "autoprefixer": "^9.5.1",
+    "browser-sync": "^2.26.5",
+    "cssnano": "^4.1.10",
+    "del": "^4.1.1",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-size": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-useref": "^3.1.6",
+    "mocha": "^6.1.4",
+    "sass": "^1.54.8",
+    "jscs": "^3.0.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "Firefox ESR"
+  ],
+  "rules": {
+    "quotes": [
+      2,
+      "single"
+    ]
+  },
+  "author": "",
+  "license": "ISC"
+}
