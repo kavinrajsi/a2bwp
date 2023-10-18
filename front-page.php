@@ -45,7 +45,7 @@ get_header();
     <div class="info__text">
       <div class="title">
         Adyar Ananda Bhavan
-        <span>Authentic taste that brings smiles!</span>
+        <span>House of exclusive Indian Sweets</span>
       </div>
       <p>
         Everything that we bring you is pure, delicious and authentic. At Adyar Ananda Bhavan, we prepare only using the finest ingredients, following time-tested methods. Experience a perfect blend of timeless tradition and innovation in every bite.
@@ -215,6 +215,10 @@ get_header();
 
     <div class="col-fluid">
       <div class="aab-goes-digital">
+    <div class="col-box">
+       <div class="image__left">
+       <img src="<?php echo get_template_directory_uri(); ?>/images/laptop.png" class="" alt="...">
+</div>
         <div class="info__text">
           <div class="title">
             A2B Goes Digital
@@ -224,6 +228,11 @@ get_header();
           </p>
           <a href="https://onlineorder.aabsweets.com/" target="_blank" class="text-center button block-center"> ORDER ONLINE </a>
       </div>
+
+      <div class="image__right">
+       <img src="<?php echo get_template_directory_uri(); ?>/images/mobile.png" class="" alt="...">
+</div>
+</div>
       </div>
     </div>
 

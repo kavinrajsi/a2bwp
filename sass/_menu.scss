@@ -31,7 +31,11 @@ header {
   &__logo--wrapper {
     padding: 16px;
     img {
-      // max-width: 224px;
+      max-width: 224px;
+
+      @media (min-width: 1400px) {
+        max-width: initial;
+      }
     }
   }
 
@@ -50,13 +54,13 @@ header {
     position: absolute;
     left: 0;
     right: 0;
-    top: 101px;
+    top: 80px;
     height: 0;
     display: none;
     &.menu--open {
       z-index: 10;
       display: flex;
-      height: calc(100vh - 101px);
+      height: calc(100vh - 80px);
       background: #fff;
       @media (min-width: 1400px) {
           background: linear-gradient(180deg, #E0A545 0%, #FBF6A5 100%);
@@ -131,6 +135,9 @@ header {
       @media (min-width: 1400px) {
         flex-direction: row;
       }
+      .menu-item{
+        position: relative;
+      }
       a {
         display: block;
       }
@@ -144,15 +151,20 @@ header {
           background: #fceac9;
 
           &.show {
-            display: block !important;
-            position: relative;
-            text-align: center;
-            background: transparent;
+            display: block ;
+            position: static;
+            // text-align: center;
+            // background: transparent;
             li a{
               text-align: center;
             }
             @media (min-width: 1400px) {
-              display: flex !important;
+              position: absolute;
+              display: flex ;
+              left: calc(50% - (270px / 2));
+              min-width: 270px;
+              top: 20px;
+              z-index: 2;
             }
           }
           li {

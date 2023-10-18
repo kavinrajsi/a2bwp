@@ -532,3 +532,39 @@ Text Domain: aab
     }
   }
 }
+
+
+.aab-goes-digital{ .col-box{
+  display: flex;
+  position: relative;
+   @media (min-width: 768px) {   
+    justify-content: center;
+
+  flex-direction: row-reverse;
+  }
+  @media (min-width: 1400px) {  flex-direction: row;  }
+  .image__left{
+    display: none;
+    @media (min-width: 768px) { display: block;     }
+    @media (min-width: 1400px) { display: block;     }
+    }
+    .info__text{
+    @media (min-width: 768px) {margin: 0; }
+    @media (min-width: 1400px) { margin: 0 auto;    }
+    }
+  .image__right{
+    display: none;
+    @media (min-width: 1400px) { display: block;     }
+    position: relative;
+    width: 304px;
+    margin-bottom: -64px;
+    img{
+      width: 100%;
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+  }
+}
+}
