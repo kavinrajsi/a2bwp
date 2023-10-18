@@ -1,6 +1,8 @@
 .page-template-page-policy {
+main{
   @include interpolate("padding-top", 768px, 32px, 992px, 80px, "ease-in");
   @include interpolate("padding-bottom", 768px, 32px, 992px, 80px, "ease-in");
+}
   .custom-template-content {
     width: 100%;
     max-width: 1328px;
@@ -8,8 +10,8 @@
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
-  }
-  p {
+  
+  p,li {
     color: #00378c;
     font-family: "Roboto Serif";
     font-size: 20px;
@@ -38,4 +40,5 @@
       }
     }
   }
+}
 }

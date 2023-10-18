@@ -1,0 +1,21 @@
+
+.col-box {
+  width: 100%;
+  max-width: 1328px;
+  padding: 0 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.col-fluid {
+  width: 100%;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.col-display-flex {
+  display: flex;
+}
+.col-content-between {
+  justify-content: space-between;
+}

@@ -1,0 +1,198 @@
+.page__header--band {
+  color: #00378c;
+  font-family: Roboto Serif;
+  @include interpolate("font-size", 568px, 24px, 992px, 36px, "ease-in");
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 3.6px;
+  position: relative;
+  img {
+    width: 100%;
+  }
+  h2 {
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.regional__outlets {
+  .gifting__delight--tab .custom-dropdown {
+    display: block;
+  }
+}
+
+.store__locations {
+  padding: 0 0 32px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr;
+  @media (min-width: 576px) {
+    grid-template-columns: 1fr 1fr;
+  }
+  @media (min-width: 768px) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .store__location {
+    padding: 16px;
+    border-radius: 6px;
+    background: #00378c;
+    @media (min-width: 768px) {
+      padding: 48px;
+    }
+
+    display: flex;
+    flex-direction: column;
+    address {
+      strong {
+        color: #ffd380;
+        text-align: center;
+        font-family: Roboto Serif;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.6px;
+        // margin-bottom: 16px;
+        display: block;
+      }
+      color: #fff;
+      text-align: center;
+      font-family: Roboto Serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 28px; /* 175% */
+      letter-spacing: 0.32px;
+      // margin-bottom: 8px;
+      height: 100%;
+      span {
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 32px;
+        display: block;
+        a {
+          display: inline-block;
+          color: #00378c;
+          text-align: center;
+          font-family: Roboto Serif;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          letter-spacing: 0.32px;
+        }
+      }
+    }
+  }
+  .store___direcitons {
+    border-top: 1px solid #fff;
+    padding-top: 16px;
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .store__directions--text {
+      display: inline-block;
+      color: #fff;
+      font-family: Roboto Serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      letter-spacing: 0.28px;
+      margin-right: 8px;
+    }
+    .store__directions--icon {
+      display: inline-block;
+      a {
+        display: inline-block;
+      }
+      a + a {
+        padding-left: 16px;
+        margin-left: 16px;
+        border-left: 1px solid #2657a4;
+      }
+    }
+  }
+}
+
+.page__content {
+  .gifting__delight--tab {
+    .action--list {
+      margin-bottom: 34px;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 16px;
+      @media (min-width: 576px) {
+        gap: 0;
+        justify-content: space-between;
+      }
+      .tabs {
+        margin: 0;
+        li {
+          display: none;
+          padding: 0;
+          &:after,
+          &:before {
+            content: none;
+          }
+          &.active {
+            display: block;
+            color: #00378c;
+            font-family: Abril Fatface;
+
+            @include interpolate(
+              "font-size",
+              568px,
+              32px,
+              992px,
+              48px,
+              "ease-in"
+            );
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 0.96px;
+          }
+        }
+      }
+      .custom-dropdown {
+        margin: 0;
+        width: 280px;
+        .dropdown-label {
+          width: 280px;
+          text-align: left;
+        }
+        .dropdown-option {
+          text-align: left;
+        }
+      }
+    }
+  }
+}
+
+.page__gift {
+  .image-gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+    @media (min-width: 768px) {
+      padding: 0 16px;
+      flex-direction: row;
+      > img {
+        width: 33.333%;
+      }
+    }
+  }
+}

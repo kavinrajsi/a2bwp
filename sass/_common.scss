@@ -1,0 +1,81 @@
+body {
+  font-family: "Roboto Serif", serif;
+}
+a {
+  display: inline-block;
+}
+svg {
+  display: inline-block;
+  &:not(:root) {
+    overflow-clip-margin: content-box;
+    overflow: hidden;
+  }
+}
+// .page__news {
+//   main {
+//     padding-top: 40px;
+//     padding-bottom: 80px;
+//   }
+// }
+
+// .page__contact {
+//   main {
+//     padding-top: 40px;
+//   }
+// }
+
+// .page__gift {
+//   main {
+//     padding-top: 40px;
+//   }
+// }
+
+// .page__blog--detail {
+//   main {
+//     padding: 0;
+//   }
+// }
+
+// ol {
+//   list-style: auto;
+//   > li {
+//     &::marker {
+//       font-weight: bold;
+//     }
+
+//     ol {
+//       > li::marker {
+//         font-weight: normal;
+//       }
+//     }
+//   }
+// }
+
+.search__outlet {
+  #locationList {
+    height: calc(100vh  - 160px);
+    overflow: scroll;
+    li {
+      cursor: pointer;
+      padding: 0 8px 8px;
+      margin:   0 0 8px;
+      border-bottom: 1px solid rgba(95, 71, 0, 0.2);
+      color: #00378c;
+      font-family: "Alice";
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 0.48px;
+
+      font-size: 16px;
+      line-height: normal;
+      @media (min-width: 768px) {
+        font-size: 18px;
+      }
+    }
+  }
+  #map{
+    height: calc(100vh  - 160px);
+    width: 100%;
+  }
+}

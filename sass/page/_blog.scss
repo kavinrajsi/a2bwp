@@ -1,0 +1,108 @@
+.blog__image {
+  z-index: 0;
+  img {
+    width: 100%;
+  }
+}
+
+.blog__content {
+  @include interpolate("margin-bottom", 768px, 32px, 992px, 80px, "ease-in");
+  position: relative;
+  z-index: 1;
+  border-radius: 8px;
+  background: #ffd380;
+  padding: 40px 20px;
+  margin-top: -20px;
+  @media (min-width: 768px) {
+    margin-top: -120px;
+    padding: 64px 40px;
+  }
+
+  .blog__tag {
+    color: #00378c;
+    text-align: center;
+    font-family: Roboto Serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    @media (min-width: 768px) {
+      margin-bottom: 24px;
+    }
+  }
+
+  .blog__title {
+    text-align: center;
+    color: #00378c;
+    text-align: center;
+    font-family: Roboto Serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.64px;
+    margin-bottom: 24px;
+    font-size: 20px;
+    @media (min-width: 768px) {
+      font-size: 32px;
+    }
+  }
+
+  .blog__author_date {
+    color: #00378c;
+    text-align: center;
+    font-family: Roboto Serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    margin-top: 20px;
+    @media (min-width: 768px) {
+      margin-top: 24px;
+    }
+  }
+
+  p {
+    color: #00378c;
+    text-align: center;
+    font-family: Roboto Serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 144.444% */
+    letter-spacing: 0.36px;
+    font-size: 14px;
+    margin-top: 20px;
+    @media (min-width: 768px) {
+      margin-top: 24px;
+      font-size: 18px;
+    }
+  }
+  img {
+    margin-top: 20px;
+    @media (min-width: 768px) {
+      margin-top: 24px;
+    }
+  }
+}
+
+.blog__related--post {
+  @include interpolate("margin-bottom", 768px, 32px, 992px, 80px, "ease-in");
+  .title {
+    color: #00378c;
+    font-family: Roboto Serif;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.64px;
+    margin-bottom: 20px;
+    @media (min-width: 768px) {
+      text-align: left;
+      font-size: 32px;
+      margin-bottom: 24px;
+    }
+  }
+}
