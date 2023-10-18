@@ -25,11 +25,11 @@ menuIcon.addEventListener('click', () => {
 //
 
 document.addEventListener('DOMContentLoaded', function () {
-  const menuItemsWithSubMenu = document.querySelectorAll('.with-submenu');
+  const menuItemsWithSubMenu = document.querySelectorAll('.menu-item-has-children');
 
   menuItemsWithSubMenu.forEach(function (menuItem) {
       menuItem.addEventListener('click', function () {
-          this.querySelector('.submenu').classList.toggle('show');
+          this.querySelector('.sub-menu').classList.toggle('show');
       });
   });
 });

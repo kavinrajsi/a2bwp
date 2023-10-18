@@ -895,7 +895,7 @@ header.scroll-active {
 .header__navigation--list ul a {
   display: block;
 }
-.header__navigation--list ul .with-submenu .submenu {
+.header__navigation--list ul .menu-item-has-children .sub-menu {
   display: none;
   position: absolute;
   -webkit-box-orient: vertical;
@@ -906,26 +906,26 @@ header.scroll-active {
   border-radius: 8px;
   background: #fceac9;
 }
-.header__navigation--list ul .with-submenu .submenu.show {
+.header__navigation--list ul .menu-item-has-children .sub-menu.show {
   display: block !important;
   position: relative;
   text-align: center;
   background: transparent;
 }
-.header__navigation--list ul .with-submenu .submenu.show li a {
+.header__navigation--list ul .menu-item-has-children .sub-menu.show li a {
   text-align: center;
 }
 @media (min-width: 1400px) {
-  .header__navigation--list ul .with-submenu .submenu.show {
+  .header__navigation--list ul .menu-item-has-children .sub-menu.show {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
     display: flex !important;
   }
 }
-.header__navigation--list ul .with-submenu .submenu li {
+.header__navigation--list ul .menu-item-has-children .sub-menu li {
   display: block;
 }
-.header__navigation--list ul .with-submenu .submenu li a {
+.header__navigation--list ul .menu-item-has-children .sub-menu li a {
   display: block;
   margin: 0 auto;
   text-align: left;
@@ -937,10 +937,10 @@ header.scroll-active {
   line-height: normal;
   letter-spacing: 0.28px;
 }
-.header__navigation--list ul .with-submenu .submenu li a:hover::before, .header__navigation--list ul .with-submenu .submenu li a:hover::after {
+.header__navigation--list ul .menu-item-has-children .sub-menu li a:hover::before, .header__navigation--list ul .menu-item-has-children .sub-menu li a:hover::after {
   content: none !important;
 }
-.header__navigation--list ul .with-submenu .submenu li a:hover {
+.header__navigation--list ul .menu-item-has-children .sub-menu li a:hover {
   background: #fff;
 }
 .header__navigation--list li.active a:after, .header__navigation--list li:hover a:after {

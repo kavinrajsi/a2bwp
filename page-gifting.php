@@ -89,7 +89,7 @@ $title = get_the_title();
       <div class="gifting__form pad-top-48 pad-bottom-48">
         <div class="col-box">
           <h3 class="section__title text-center">Looking for something special?</h3>
-          <?php echo do_shortcode('[contact-form-7 id="a05b2ba" title="Gifting Page"]'); ?>
+          <?php echo do_shortcode('[contact-form-7 id="a549dd1" title="Gifting Page"]'); ?>
         </div>
       </div>
 

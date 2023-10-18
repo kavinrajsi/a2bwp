@@ -134,8 +134,8 @@ header {
       a {
         display: block;
       }
-      .with-submenu {
-        .submenu {
+      .menu-item-has-children{
+        .sub-menu {
           display: none;
           position: absolute;
           flex-direction: column;

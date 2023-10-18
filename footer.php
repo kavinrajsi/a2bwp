@@ -10,7 +10,7 @@
         <input type="email" class="form__input" placeholder="Enter Email Address" />
         <button class="form__button">SUBSCRIBE</button>
       </form> -->
-      <?php echo do_shortcode('[mc4wp_form id=196]'); ?>
+      <?php echo do_shortcode('[mc4wp_form id=75]'); ?>
     </div>
     <div class="footer__navigation--lists col-display-flex col-content-between pad-top-48 pad-bottom-48">
       <div class="footer__navigation--list">

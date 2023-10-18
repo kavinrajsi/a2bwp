@@ -43,7 +43,7 @@ $featured_img_url = get_the_post_thumbnail_url();
       </div>
       </div>
       <div class="contact-form">
-       <?php echo do_shortcode('[contact-form-7 id="366d70d" title="Contact form"]'); ?>
+       <?php echo do_shortcode('[contact-form-7 id="38acc4c" title="Contact form"]'); ?>
       </div>
     </div>
     </div> 
