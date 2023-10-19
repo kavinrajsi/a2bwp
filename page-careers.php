@@ -107,7 +107,7 @@ $featured_img_url = get_the_post_thumbnail_url();
   <div class="title">
     Your journey with us starts here
   </div>
-  <p class="title__sub">Please contact us using the information below</p>
+  <p class="title__sub">Please fill out the form, and we'll  be in touch soon </p>
 
   <?php echo do_shortcode('[contact-form-7 id="c4412bc" title="Career Form"]'); ?>
 

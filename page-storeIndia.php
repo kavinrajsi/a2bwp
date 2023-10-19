@@ -333,7 +333,7 @@ $title = get_the_title();
 
 <div class="store__location">
   <address>
-    <strong>ASHOK NAGAR METRO SHOP</strong> <br />
+    <strong>ASHOK NAGAR METRO </strong> <br />
     Metro Station, Jawaharlal Nehru Road, Ashok Nagar, Opposite Udhayam Cinema
   </address>
   <div class="store___direcitons">
@@ -428,7 +428,7 @@ $title = get_the_title();
 
 <div class="store__location">
   <address>
-    <strong>CHEPAUK SHOP</strong> <br />
+    <strong>CHEPAUK </strong> <br />
     No: 4/353, Quaide Milleth Road, Triplicane High Road, Chepauk, Chennai, Tamil Nadu 600005
   </address>
   <div class="store___direcitons">
@@ -443,7 +443,7 @@ $title = get_the_title();
 
 <div class="store__location">
   <address>
-    <strong>CHIDAMBARAM SHOP</strong> <br />
+    <strong>CHIDAMBARAM </strong> <br />
     No: 17 & 18, East Car Street, Chidambaram, Tamil Nadu 608001
   </address>
   <div class="store___direcitons">
@@ -523,7 +523,7 @@ $title = get_the_title();
 
 <div class="store__location">
   <address>
-    <strong>CUDDALORE SHOP</strong> <br />
+    <strong>CUDDALORE </strong> <br />
     No: 3H, Bharathi Road, Manjakuppam, Cuddalore, Tamil Nadu 607001
   </address>
   <div class="store___direcitons">
@@ -538,7 +538,7 @@ $title = get_the_title();
 
 <div class="store__location">
   <address>
-    <strong>DINDIGUL SHOP</strong> <br />
+    <strong>DINDIGUL </strong> <br />
     708/1A/1B, Thomaiyarpuram, Begampur Post, Madurai-Dindigul Bypass Road, Dindigul, Tamil Nadu
   </address>
   <div class="store___direcitons">
@@ -552,7 +552,7 @@ $title = get_the_title();
 </div>
 <div class="store__location">
   <address>
-    <strong>ECR-PANAIYUR SHOP</strong> <br />
+    <strong>ECR-PANAIYUR </strong> <br />
     No: 13 & 43, East Coast Road, Panaiyur, Chennai, Tamil Nadu 600119
   </address>
   <div class="store___direcitons">
@@ -567,7 +567,7 @@ $title = get_the_title();
 
 <div class="store__location">
   <address>
-    <strong>EKKATUTHANGAL SHOP</strong> <br />
+    <strong>EKKATUTHANGAL </strong> <br />
     No: 2, Jawaharlal Nehru Road, Balaji Nagar, Ekkatuthangal, Chennai, Tamil Nadu 600032
   </address>
   <div class="store___direcitons">
@@ -582,7 +582,7 @@ $title = get_the_title();
 
 <div class="store__location">
   <address>
-    <strong>ERODE SHOP</strong> <br />
+    <strong>ERODE </strong> <br />
     No: 154, Parimalam Complex, Mettur Road, Erode, Tamil Nadu 638011
   </address>
   <div class="store___direcitons">
@@ -627,7 +627,7 @@ $title = get_the_title();
 
 <div class="store__location">
   <address>
-    <strong>GUDUVANCHERY SHOP</strong> <br />
+    <strong>GUDUVANCHERY </strong> <br />
     No: 2, GST Road, Thailavaram Village, Maraimalai Nagar, Chennai-Trichy Highway, Guduvanchery, Tamil Nadu 603202
   </address>
   <div class="store___direcitons">
@@ -641,7 +641,7 @@ $title = get_the_title();
 </div>
 <div class="store__location">
   <address>
-    <strong>HOSUR BAGALUR ROAD SHOP</strong> <br />
+    <strong>HOSUR BAGALUR ROAD </strong> <br />
     Survey No: 527/2A, Saptagiri Nagar, Teachers Colony, Bagalur Road, Hosur, Hosur MPTY, Krishnagiri, Tamil Nadu-635109
   </address>
   <div class="store___direcitons">
@@ -656,7 +656,7 @@ $title = get_the_title();
 
 <div class="store__location">
   <address>
-    <strong>HOSUR SHOP</strong> <br />
+    <strong>HOSUR </strong> <br />
     No: 181 & 182, SIPCOT Industrial Area, Mukandapalli, Bangalore Highway, Hosur, Tamil Nadu
   </address>
   <div class="store___direcitons">
@@ -686,7 +686,7 @@ $title = get_the_title();
 
 <div class="store__location">
   <address>
-    <strong>KARUR SHOP</strong> <br />
+    <strong>KARUR </strong> <br />
     123, Jawahar Bazaar Road Madavilagam, KVR Building, Karur, Tamil Nadu 639001
   </address>
   <div class="store___direcitons">
@@ -716,7 +716,7 @@ $title = get_the_title();
 
 <div class="store__location">
   <address>
-    <strong>KOYEMBEDU METRO SHOP</strong> <br />
+    <strong>KOYEMBEDU METRO </strong> <br />
     CMRL, Koyambedu Market East Road, Koyembedu Metro Station, Koyambedu, Chennai, Tamil Nadu 600107
   </address>
   <div class="store___direcitons">
@@ -731,7 +731,7 @@ $title = get_the_title();
 
 <div class="store__location">
   <address>
-    <strong>KOYEMBEDU SHOP</strong> <br />
+    <strong>KOYEMBEDU </strong> <br />
     No: 221, Jawaharlal Nehru Road, Opp. To CMBT Stand, Koyambedu, Jai Nagar, Arumbakkam, Chennai, Tamil Nadu 600107
   </address>
   <div class="store___direcitons">
@@ -745,7 +745,7 @@ $title = get_the_title();
 </div>
 <div class="store__location">
   <address>
-    <strong>MADIPAKKAM SHOP</strong> <br />
+    <strong>MADIPAKKAM </strong> <br />
     No: 4, Medavakkam Main Road, Ganesh Nagar, Chennai, Tamil Nadu 600091
   </address>
   <div class="store___direcitons">
@@ -840,7 +840,7 @@ $title = get_the_title();
 </div>
 <div class="store__location">
   <address>
-    <strong>MOGAPPAIR EAST SHOP</strong> <br />
+    <strong>MOGAPPAIR EAST </strong> <br />
     No: 1J, Pari Road, JJ Nagar, Mogappair East, Chennai, Tamil Nadu 600037
   </address>
   <div class="store___direcitons">
@@ -855,7 +855,7 @@ $title = get_the_title();
 
 <div class="store__location">
   <address>
-    <strong>MYLAPORE SHOP</strong> <br />
+    <strong>MYLAPORE </strong> <br />
     No: 70, Ramakrishna Mutt Road, Mylapore, Chennai, Tamil Nadu 600004
   </address>
   <div class="store___direcitons">
@@ -870,7 +870,7 @@ $title = get_the_title();
 
 <div class="store__location">
   <address>
-    <strong>NAMAKKAL SHOP</strong> <br />
+    <strong>NAMAKKAL </strong> <br />
     66/214, SALEM MAIN ROAD, OPP K.S. THEATRE, Namakkal, Tamil Nadu-637001
   </address>
   <div class="store___direcitons">
@@ -885,7 +885,7 @@ $title = get_the_title();
 
 <div class="store__location">
   <address>
-    <strong>NANDAMBAKKAM SHOP</strong> <br />
+    <strong>NANDAMBAKKAM </strong> <br />
     No: 38, Mount Poonamalle High Road, Poonthottam Colony, Nandambakkam, Tamil Nadu 600089
   </address>
   <div class="store___direcitons">
@@ -973,7 +973,7 @@ $title = get_the_title();
 
 <div class="store__location">
   <address>
-    <strong>PAMMAL SHOP</strong> <br />
+    <strong>PAMMAL </strong> <br />
     No: 196, Pammal Main Road, Chennai, Tamil Nadu 600075
   </address>
   <div class="store___direcitons">
@@ -1047,7 +1047,7 @@ $title = get_the_title();
 </div>
 <div class="store__location">
   <address>
-    <strong>PONDY BAZAAR SHOP</strong> <br />
+    <strong>PONDY BAZAAR </strong> <br />
     No: 87, Sir Theagaraya Road, Pondy Bazaar, Parthsarathi Puram, T. Nagar, Chennai, Tamil Nadu 600017
   </address>
   <div class="store___direcitons">
@@ -1083,7 +1083,7 @@ $title = get_the_title();
 
 <div class="store__location">
   <address>
-    <strong>PURASAIWAKKAM SHOP</strong> <br />
+    <strong>PURASAIWAKKAM </strong> <br />
     No: 50, 51 & 52, Purasaiwakkam High Road, Purasaiwakkam, Chennai, Tamil Nadu 600007
   </address>
   <div class="store___direcitons">
@@ -1104,7 +1104,7 @@ $title = get_the_title();
 
 <div class="store__location">
   <address>
-    <strong>RAILWAY SHOP -CBE</strong> <br />
+    <strong>RAILWAY SHOP - CBE</strong> <br />
     No :18 & 19, State Bank Road, Near Railway Station, Race Course, Coimbatore
   </address>
   <div class="store___direcitons">
@@ -1134,7 +1134,7 @@ $title = get_the_title();
 
 <div class="store__location">
   <address>
-    <strong>ROYAPURAM SHOP</strong> <br />
+    <strong>ROYAPURAM </strong> <br />
     No: 110, M S Koil Street, Royapuram, Chennai, Tamil Nadu 600013
   </address>
   <div class="store___direcitons">
@@ -1229,7 +1229,7 @@ $title = get_the_title();
 
 <div class="store__location">
   <address>
-    <strong>SHOLAVARAM SHOP</strong> <br />
+    <strong>SHOLAVARAM </strong> <br />
     Shop No: 604/2, B1A, Bypass Road, Cholavaram, Chennai, Tamil Nadu 600067
   </address>
   <div class="store___direcitons">
@@ -1244,7 +1244,7 @@ $title = get_the_title();
 
 <div class="store__location">
   <address>
-    <strong>SINGAPERUMAL KOVIL SHOP</strong> <br />
+    <strong>SINGAPERUMAL KOVIL </strong> <br />
     No: 2, GST Road, S.P Kovil, Next To Fortune Hotel, Chennai, Tamil Nadu 603204
   </address>
   <div class="store___direcitons">
@@ -1309,7 +1309,7 @@ $title = get_the_title();
 
 <div class="store__location">
   <address>
-    <strong>TAMBARAM CAMP ROAD SHOP</strong> <br />
+    <strong>TAMBARAM CAMP ROAD </strong> <br />
     No: 172/173, Velachery-Tambaram Main Road, Aarthi Nagar, Selaiyur, Chennai, Tamil Nadu 600059
   </address>
   <div class="store___direcitons">
@@ -1330,7 +1330,7 @@ $title = get_the_title();
 
 <div class="store__location">
   <address>
-    <strong>THALAMBUR-OMR SHOP</strong> <br />
+    <strong>THALAMBUR-OMR </strong> <br />
     Shop No: 12, Old Mahabalipuram Road, Egattur, Tamil Nadu 603103
   </address>
   <div class="store___direcitons">
@@ -1345,7 +1345,7 @@ $title = get_the_title();
 
 <div class="store__location">
   <address>
-    <strong>THANJAVUR CHOLAN NAGAR SHOP</strong> <br />
+    <strong>THANJAVUR CHOLAN NAGAR </strong> <br />
     NO:1, CHOZHAN NAGAR, TANJORE - TRICHY HIGHWAYS, OPP:RTO OFFICE, Thanjavur, Tamil Nadu-613001
   </address>
   <div class="store___direcitons">
@@ -1360,7 +1360,7 @@ $title = get_the_title();
 
 <div class="store__location">
   <address>
-    <strong>THANJAVUR THOMAS NAGAR SHOP</strong> <br />
+    <strong>THANJAVUR THOMAS NAGAR </strong> <br />
     NO.6. DANIEL THOMAS NAGAR, OLD HOUSING UNIT TRICHY MAIN ROAD, Thanjavur, Tamil Nadu-613007
   </address>
   <div class="store___direcitons">
@@ -1374,7 +1374,7 @@ $title = get_the_title();
 </div>
 <div class="store__location">
   <address>
-    <strong>Thirumullaivoyal</strong> <br />
+    <strong>THIRUMULLAIVOYAL</strong> <br />
     Shop No: 58, Madras Thiruvallur High Road, 88-46, NH 716, Vivekananda Nagar, Thirumullaivoyal, Chennai, Tamil Nadu 600109
   </address>
   <div class="store___direcitons">
@@ -1389,7 +1389,7 @@ $title = get_the_title();
 
 <div class="store__location">
   <address>
-    <strong>THIRUVANNAMALAI-VENGI SHOP</strong> <br />
+    <strong>THIRUVANNAMALAI-VENGI </strong> <br />
     No: 2, Polur Road, Mathalangulam, Tiruvannamalai, Tamil Nadu 606601
   </address>
   <div class="store___direcitons">
@@ -1404,7 +1404,7 @@ $title = get_the_title();
 
 <div class="store__location">
   <address>
-    <strong>THIRUVOTTIYUR SHOP</strong> <br />
+    <strong>THIRUVOTTIYUR </strong> <br />
     NO:915, THIRUVOTTRIYUR HIGH ROAD (OLD SBI BUILDING) THIRUVOTTRIYUR CHENNAI, Tamil Nadu-600019
   </address>
   <div class="store___direcitons">
@@ -1449,7 +1449,7 @@ $title = get_the_title();
 
 <div class="store__location">
   <address>
-    <strong>TIRUPUR PALLADAM ROAD SHOP</strong> <br />
+    <strong>TIRUPUR PALLADAM ROAD </strong> <br />
     NO:375A-SAK.COMPLEX, PALLADAM ROAD, TIRUPUR, Tamil Nadu-641604
   </address>
   <div class="store___direcitons">
@@ -1464,7 +1464,7 @@ $title = get_the_title();
 
 <div class="store__location">
   <address>
-    <strong>TIRUPUR PN ROAD SHOP</strong> <br />
+    <strong>TIRUPUR PN ROAD </strong> <br />
     No: 208/650, KRBS Tower, PN Road, Tiruppur
   </address>
   <div class="store___direcitons">
@@ -1478,7 +1478,7 @@ $title = get_the_title();
 </div>
 <div class="store__location">
   <address>
-    <strong>TRICHY ANNAMALAI NAGAR SHOP</strong> <br />
+    <strong>TRICHY ANNAMALAI NAGAR </strong> <br />
     NO:14, TWIN TOWERS, KARUR BYPASS ROAD, ANNAMALAi NAGAR Trichy, Tiruchirappalli(Tamil Nadu) -620018
   </address>
   <div class="store___direcitons">
@@ -1493,7 +1493,7 @@ $title = get_the_title();
 
 <div class="store__location">
   <address>
-    <strong>TRICHY RAILWAY STATION SHOP</strong> <br />
+    <strong>TRICHY RAILWAY STATION </strong> <br />
     Shop No: 25, Bharathiyar Salai, IRCTC Food Plaza, Railway Station, Sangillyandapuram, Tiruchirappalli, Tamil Nadu 620001
   </address>
   <div class="store___direcitons">
@@ -1538,7 +1538,7 @@ $title = get_the_title();
 
 <div class="store__location">
   <address>
-    <strong>TRIPLICANE SHOP</strong> <br />
+    <strong>TRIPLICANE </strong> <br />
     No: 47, Bharathi Salai, Narayana Krishnaraja Puram, Triplicane, Chennai, Tamil Nadu 600005
   </address>
   <div class="store___direcitons">
@@ -1567,7 +1567,7 @@ $title = get_the_title();
 </div>
 <div class="store__location">
   <address>
-    <strong>VADAPALANI METRO SHOP</strong> <br />
+    <strong>VADAPALANI METRO </strong> <br />
     Shop No: 67, Vadapalani Metro Station, 100 Feet Road, Near SIMS Hospital, Dharan Singh Colony, Vadapalani, Chennai, Tamil Nadu 600026
   </address>
   <div class="store___direcitons">
@@ -1582,7 +1582,7 @@ $title = get_the_title();
 
 <div class="store__location">
   <address>
-    <strong>VADAPALANI SHOP</strong> <br />
+    <strong>VADAPALANI </strong> <br />
     No: 1/B, Arcot Road, Vadapalani, Chennai, Tamil Nadu 600026
   </address>
   <div class="store___direcitons">
@@ -1603,7 +1603,7 @@ $title = get_the_title();
 
 <div class="store__location">
   <address>
-    <strong>VANIYAMBADI SHOP</strong> <br />
+    <strong>VANIYAMBADI </strong> <br />
     Shop No: 36B/3, Nh-46, Bengaluru-Chennai Highway, Vaniyambadi, Tamil Nadu 635751
   </address>
   <div class="store___direcitons">
@@ -1767,7 +1767,7 @@ $title = get_the_title();
 
 <div class="store__location">
   <address>
-    <strong>BAGMANE TECHPARK SHOP</strong> <br />
+    <strong>BAGMANE TECHPARK </strong> <br />
     No: 61 & 63, Doddanekundi Village, Situated at Mahadevapura, KR Puram, Hobli, Bangalore, Karnataka 560048
   </address>
   <div class="store___direcitons">
@@ -1856,7 +1856,7 @@ $title = get_the_title();
 
 <div class="store__location">
   <address>
-    <strong>BELLANDUR SHOP</strong> <br />
+    <strong>BELLANDUR </strong> <br />
     No: 626,  Sai Sobagu 3 Road Main Road, Green Glen Layout, Bellandur, Bangalore, Karnataka 560103
   </address>
   <div class="store___direcitons">

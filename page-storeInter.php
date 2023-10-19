@@ -94,13 +94,13 @@ $title = get_the_title();
               <div class="store__locations">
                 <div class="store__location">
                   <address>
-                    <strong> Singapore 1 </strong>
+                    <strong> Dalhousie Lane </strong>
                     <br /> 1 Dalhousie Lane, Singapore 209664,Singapore 1
                   </address>
                 </div>
                 <div class="store__location">
                   <address>
-                    <strong> Singapore 2 </strong>
+                    <strong> Serangoon Road </strong>
                     <br />276 & 278 Serangoon Road, Singapore 218106,Singapore 2
                   </address>
                 </div>
