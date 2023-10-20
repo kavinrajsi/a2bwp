@@ -193,8 +193,8 @@
   .awards__lists {
     display: flex;
     gap: 20px;
-    grid-template-columns: 1fr 1fr;
-
+    flex-wrap: nowrap;
+    overflow-x: scroll;
     @media (min-width: 768px) {
       flex-wrap: wrap;
       gap: 68px 48px;
@@ -203,6 +203,8 @@
       align-content: center;
     }
     .awards__list{
+      flex: 1 0 50%;
+      width: 50%;
       // flex: 0  0 100%;
       // width: 100%;
       @media (min-width: 768px) {

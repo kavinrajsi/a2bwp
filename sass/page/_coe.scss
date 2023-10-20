@@ -25,6 +25,25 @@
         background: url("./images/title-divider-yellow.svg") center no-repeat;
       }
     }
+    span{
+        display: block;
+        color: #f6c15e;
+        font-family: Roboto Serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.48px;
+        @include interpolate(
+          "font-size",
+          568px,
+          18px,
+          992px,
+          24px,
+          "ease-in"
+        );
+      
+    }
   }
   p {
     color: #fff;

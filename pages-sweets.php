@@ -16,7 +16,8 @@ $title = get_the_title();
       <div class="coe-intro pattern__blue pad-top-62 pad-bottom-62" style="background-color: #00378C;">
         <div class="col-box">
           <h2 class="page__title title__separator text-center">
-            Adyar Ananda Bhavan Sweets & Sacks
+            Adyar Ananda Bhavan Sweets & Snacks
+        <span>House of exclusive Indian Sweets</span>
           </h2>
           <p class="text-center">
             Whether you’re at any of our outlets or visiting our online store, you can be sure to expect only the best. That’s because we have always believed that quality is foremost. The strikingly distinct taste of Adyar Ananda Bhavan sweets and savouries are the result of quality ingredients and  sheer meticulousness. Because, to us you're more than just a customer. You're special. And the reason we exist.
