@@ -950,6 +950,11 @@
     margin-bottom: 48px;
   }
   p {
+    strong {
+      display: block;
+      margin-top: 16px;
+      font-size: 24px;
+    }
     text-align: center;
     font-size: 14px;
     line-height: normal;

@@ -67,6 +67,7 @@ get_header();
         <img src="<?php echo get_template_directory_uri(); ?>/images/aab-sweets-snack.png" alt="" />
       </div>
         <p class="text-center">
+          <strong>House of exclusive Indian Sweets</strong>
           Explore our wide range of sweets, from timeless Indian classics to our
           innovative creations, perfect for every occasion. Taste the love and
           passion of Adyar Ananda Bhavan in every bite.
@@ -85,6 +86,7 @@ get_header();
         <img src="<?php echo get_template_directory_uri(); ?>/images/aab-veg-restaurant.png" alt="" />
         </div>
         <p class="text-center">
+          <strong>High class Indian vegetarian Restaurant</strong>
           A2B restaurants have everything you would expect for a cosy meal time
           with your family. With an incredible menu covering the widest
           vegetarian fare across cuisines, you’re sure to be spoilt for choice.
@@ -103,6 +105,9 @@ get_header();
         <img src="<?php echo get_template_directory_uri(); ?>/images/aab-snack.png" alt="" />
         </div>
         <p class="text-center">
+          <strong>
+            The Taste of Joy!
+          </strong>
           We have an extensive collection of packaged foods ranging from sweets,
           savouries, pickles, instant food mixes, cooking masala found in
           shelves of every single supermarket and departmental store in the

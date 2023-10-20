@@ -759,7 +759,7 @@ header.scroll-active {
 }
 @media (min-width: 768px) {
   .header__logo--wrapper {
-    padding: 0;
+    padding: 12px 0;
   }
 }
 .header__logo--wrapper svg, .header__logo--wrapper img {
@@ -795,6 +795,7 @@ header.scroll-active {
   position: absolute;
   left: 0;
   right: 0;
+  padding-top: 20px;
   top: 80px;
   height: 0;
   display: none;
@@ -806,6 +807,8 @@ header.scroll-active {
   display: flex;
   height: calc(100vh - 80px);
   background: #fff;
+  background: -webkit-gradient(linear, left bottom, left top, from(#E0A545), to(#FBF6A5));
+  background: linear-gradient(0deg, #E0A545 0%, #FBF6A5 100%);
 }
 @media (min-width: 1400px) {
   .header__menu.menu--open {
@@ -815,6 +818,7 @@ header.scroll-active {
 }
 @media (min-width: 1400px) {
   .header__menu {
+    padding-top: 0;
     height: auto;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2430,6 +2434,11 @@ header.scroll-active {
   line-height: normal;
   margin: 0 auto;
   margin-bottom: 16px;
+}
+.what_we--service p strong {
+  display: block;
+  margin-top: 16px;
+  font-size: 24px;
 }
 @media (min-width: 768px) {
   .what_we--service p {
@@ -4648,6 +4657,7 @@ svg.icon {
   font-style: normal;
   font-weight: 400;
   line-height: 72px; /* 150% */
+  line-height: normal;
   letter-spacing: 0.96px;
 }
 @media screen and (min-width: 568px) {

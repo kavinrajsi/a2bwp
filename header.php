@@ -21,7 +21,7 @@
     <div class="announcement-bar">
       <ul class="announcement-list">
         <li class="announcement-text">
-          We're revamping our website, so some features may be temporarily unavailable. We appreciate your patience.
+        House Of Exclusive Indian Sweets & Snacks   |   High Class Indian Vegetarian Restaurant
         </li>
       </ul>
     </div>
