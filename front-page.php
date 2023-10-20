@@ -27,16 +27,20 @@ get_header();
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/home-banner-1.png" class="" alt="...">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/mobile-banner-1.png" class="mobile" alt="...">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/home-banner-1.png" class="desktop" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/home-banner-2.png" class="" alt="...">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/mobile-banner-2.png" class="mobile" alt="...">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/home-banner-2.png" class="desktop" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/home-banner-3.png" class="" alt="...">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/mobile-banner-3.png" class="mobile" alt="...">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/home-banner-3.png" class="desktop" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/home-banner-4.png" class="" alt="...">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/mobile-banner-4.png" class="mobile" alt="...">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/home-banner-4.png" class="desktop" alt="...">
         </div>
       </div>
 

@@ -45,7 +45,7 @@ $title = get_the_title();
                 <div class="store__location">
                   <address>
                     <strong> Dallas </strong>
-                    <br /> No.2429 Preston Road, #100 Frisco Tx 75034, Dallas
+                    <br /> No.2429 Preston Road, #100 Frisco TX 75034, Dallas
                   </address>
                 </div>
                 <div class="store__location">
@@ -85,7 +85,7 @@ $title = get_the_title();
                 <div class="store__location">
                   <address>
                     <strong> Brick Fields - Kuala Lumbpur </strong>
-                    <br /> 254, Jalan Tun Sambanthan, Brickfields, 50470 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia
+                    <br /> 254, Jalan Tun Sambanthan, Brickfields, 50470 Kuala Lumpur, Malaysia
                   </address>
                 </div>
               </div>
