@@ -50,26 +50,32 @@ $title = get_the_title();
                 </div>
                 <div class="store__location">
                   <address>
-                    <strong> New Jersey </strong>
-                    <br /> 6400, Hadley Road, South Plainfield, Nj-07080, New Jersey
+                    <strong> California </strong>
+                    <br /> 55 River Oaks Pl Suite 90, San Jose, CA 95134, United States
                   </address>
                 </div>
                 <div class="store__location">
                   <address>
-                    <strong> New Jersey - Parsippany </strong>
-                    <br /> 3159, Us-46, Parsippany, New Jersey - 07054, New Jersey- Parsippany.
+                    <strong> Southern Plainfield </strong>
+                    <br /> 6400, Hadley Road, South Plainfield, New Jersey - 07080
                   </address>
                 </div>
                 <div class="store__location">
                   <address>
-                    <strong> New Jersey - Princeton </strong>
-                    <br /> 3817, Us-1 Princeton,New Jersey - Princeton.
+                    <strong> Parsippany </strong>
+                    <br /> 3159, US-46, Parsippany, New Jersey - 07054
                   </address>
                 </div>
                 <div class="store__location">
                   <address>
-                    <strong> California - USA </strong>
-                    <br /> 55 River Oaks Pl Suite 90 San Jose Ca 95134,California - USA
+                    <strong> Princeton </strong>
+                    <br /> 817, US-1, Princeton, New Jersey - 08540
+                  </address>
+                </div>
+                <div class="store__location">
+                  <address>
+                    <strong> Virginia </strong>
+                    <br /> 645, Elden St, Herndon, VA - 20170
                   </address>
                 </div>
               </div>
@@ -95,13 +101,13 @@ $title = get_the_title();
                 <div class="store__location">
                   <address>
                     <strong> Dalhousie Lane </strong>
-                    <br /> 1 Dalhousie Lane, Singapore 209664,Singapore 1
+                    <br /> 1 Dalhousie Lane, Singapore 209664
                   </address>
                 </div>
                 <div class="store__location">
                   <address>
                     <strong> Serangoon Road </strong>
-                    <br />276 & 278 Serangoon Road, Singapore 218106,Singapore 2
+                    <br />276 & 278 Serangoon Road, Singapore 218106
                   </address>
                 </div>
               </div>
@@ -111,13 +117,19 @@ $title = get_the_title();
                 <div class="store__location">
                   <address>
                     <strong> Sydney </strong>
-                    <br /> 116, Wigram Street, Harris Park, Sydney, Nsw - 2150, Australia Sydney
+                    <br /> 116, Wigram Street, Harris Park, Sydney, NSW - 2150
                   </address>
                 </div>
                 <div class="store__location">
                   <address>
                     <strong> Melbourne </strong>
-                    <br /> Shop No: 7, 754 - 768 Princes Highway, Springvale, Vic -3171, Australia Melbourne
+                    <br /> Shop 7/754-768 Princes Hwy, Springvale VIC 3171
+                  </address>
+                </div>
+                <div class="store__location">
+                  <address>
+                    <strong> Perth </strong>
+                    <br /> 3, Wright Road, Harrisdale, WA Australia 6112
                   </address>
                 </div>
               </div>
@@ -127,7 +139,7 @@ $title = get_the_title();
                 <div class="store__location">
                   <address>
                     <strong> Canada </strong>
-                    <br /> A2b Restaurants 8215 Financial Dr, Brampton, Ontario, Canada, Canada
+                    <br /> 8215 Financial Dr, Brampton, Ontario, L6Y 1M1
                   </address>
                 </div>
               </div>
@@ -136,8 +148,14 @@ $title = get_the_title();
               <div class="store__locations">
                 <div class="store__location">
                   <address>
-                    <strong> London </strong>
-                    <br /> 233-235, High Street North, London E6 1jg, United Kingdom, London.
+                    <strong> Eastham </strong>
+                    <br /> 233-235, High Street North, London E6 1JG, United Kingdom
+                  </address>
+                </div>
+                <div class="store__location">
+                  <address>
+                    <strong> Rayners Lane </strong>
+                    <br /> 424-426, Alexandra Avenue Harrow, HA2 9TW, United Kingdom
                   </address>
                 </div>
               </div>
