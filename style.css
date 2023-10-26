@@ -6386,3 +6386,7 @@ footer .mc4wp-error p:not(.section__title) {
   right: 0;
   bottom: 0;
 }
+
+.e-con {
+  padding: 0 !important;
+}
