@@ -113,7 +113,7 @@ $featured_img_url = get_the_post_thumbnail_url();
 
   <div class="career__support--content">For any inquiries related to careers at Adyar Ananda Bhavan, please reach out to our HR department at <a href="mailto:hr@aabsweets.com">hr@aabsweets.com</a>.</div>
 </div>
-</div> 
+</div>
 
 
 

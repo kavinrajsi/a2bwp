@@ -84,7 +84,10 @@ function cc_mime_types($mimes) {
 }
 add_filter('upload_mimes', 'cc_mime_types');
 
-
+function remove_admin_bar() {
+  show_admin_bar(false);
+}
+add_action('after_setup_theme', 'remove_admin_bar');
 
 /**
  * Enqueue scripts and styles.

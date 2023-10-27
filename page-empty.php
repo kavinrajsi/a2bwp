@@ -1,13 +1,9 @@
 <?php
 /*
-Template Name: Contact
+Template Name: Blank Canvas
 */
 
 get_header(); // Gets the header.php file
-
-$title = get_the_title();
-$featured_img_url = get_the_post_thumbnail_url();
-
 ?>
     <?php
     if (have_posts()) :
