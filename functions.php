@@ -287,97 +287,7 @@ function register_property_taxonomy() {
 
 add_action('init', 'register_property_taxonomy', 0);
 
-
-// Register Custom Post Type
-function custom_job_opening() {
-
-	$labels = array(
-		'name'                  => _x( 'Post Types', 'Post Type General Name', 'aab' ),
-		'singular_name'         => _x( 'Post Type', 'Post Type Singular Name', 'aab' ),
-		'menu_name'             => __( 'Post Types', 'aab' ),
-		'name_admin_bar'        => __( 'Post Type', 'aab' ),
-		'archives'              => __( 'Item Archives', 'aab' ),
-		'attributes'            => __( 'Item Attributes', 'aab' ),
-		'parent_item_colon'     => __( 'Parent Item:', 'aab' ),
-		'all_items'             => __( 'All Items', 'aab' ),
-		'add_new_item'          => __( 'Add New Item', 'aab' ),
-		'add_new'               => __( 'Add New', 'aab' ),
-		'new_item'              => __( 'New Item', 'aab' ),
-		'edit_item'             => __( 'Edit Item', 'aab' ),
-		'update_item'           => __( 'Update Item', 'aab' ),
-		'view_item'             => __( 'View Item', 'aab' ),
-		'view_items'            => __( 'View Items', 'aab' ),
-		'search_items'          => __( 'Search Item', 'aab' ),
-		'not_found'             => __( 'Not found', 'aab' ),
-		'not_found_in_trash'    => __( 'Not found in Trash', 'aab' ),
-		'featured_image'        => __( 'Featured Image', 'aab' ),
-		'set_featured_image'    => __( 'Set featured image', 'aab' ),
-		'remove_featured_image' => __( 'Remove featured image', 'aab' ),
-		'use_featured_image'    => __( 'Use as featured image', 'aab' ),
-		'insert_into_item'      => __( 'Insert into item', 'aab' ),
-		'uploaded_to_this_item' => __( 'Uploaded to this item', 'aab' ),
-		'items_list'            => __( 'Items list', 'aab' ),
-		'items_list_navigation' => __( 'Items list navigation', 'aab' ),
-		'filter_items_list'     => __( 'Filter items list', 'aab' ),
-	);
-	$args = array(
-		'label'                 => __( 'Post Type', 'aab' ),
-		'description'           => __( 'Post Type Description', 'aab' ),
-		'labels'                => $labels,
-		'supports'              => array( 'title', 'editor', 'custom-fields' ),
-		'hierarchical'          => true,
-		'public'                => true,
-		'show_ui'               => true,
-		'show_in_menu'          => true,
-		'menu_position'         => 5,
-		'menu_icon'             => 'dashicons-feedback',
-		'show_in_admin_bar'     => true,
-		'show_in_nav_menus'     => true,
-		'can_export'            => true,
-		'has_archive'           => false,
-		'exclude_from_search'   => true,
-		'publicly_queryable'    => true,
-		'rewrite'               => false,
-		'capability_type'       => 'page',
-		'show_in_rest'          => true,
-	);
-	register_post_type( 'job_opening', $args );
-
-}
-add_action( 'init', 'custom_job_opening', 0 );
-// Add Meta Box for Custom Field (Location URL)
-function add_location_url_meta_box() {
-    add_meta_box(
-        'job_opening_location_url',
-        'Location URL',
-        'job_opening_location_url_callback',
-        'job_opening', // Custom Post Type Name
-        'normal',
-        'default'
-    );
-}
-
-add_action('add_meta_boxes', 'add_location_url_meta_box');
-
-// Callback function for Location URL Meta Box
-function job_opening_location_url_callback($post) {
-    // Retrieve existing value if it exists
-    $location_url = get_post_meta($post->ID, '_job_opening_location_url', true);
-    ?>
-    <label for="job_opening_location_url">Location:</label>
-    <input type="text" id="job_opening_location_url" name="job_opening_location_url" value="<?php echo esc_url($location_url); ?>" size="50" /><br>
-    <?php
-}
-
-// Save custom field value when the post is saved
-function save_location_url_meta_field($post_id) {
-    if (isset($_POST['job_opening_location_url'])) {
-        update_post_meta($post_id, '_job_opening_location_url', esc_url($_POST['job_opening_location_url']));
-    }
-}
-
-add_action('save_post_job_opening', 'save_location_url_meta_field');
-
+ 
 
 // setting
 // // //
@@ -504,7 +414,6 @@ function overview_page_content() {
     $page_count = wp_count_posts('page')->publish;
     $post_count = wp_count_posts('post')->publish;
     $address_count = wp_count_posts('aab_properties')->publish; // Assuming 'address' is a custom post type
-    $job_opening_count = wp_count_posts('job_opening')->publish; // Assuming 'job_opening' is a custom post type
     ?>
     <div class="wrap">
         <h1>Overview Summary</h1>
@@ -527,10 +436,6 @@ function overview_page_content() {
                 <tr>
                     <td>Addresses</td>
                     <td><?php echo $address_count; ?></td>
-                </tr>
-                <tr>
-                    <td>Job Openings</td>
-                    <td><?php echo $job_opening_count; ?></td>
                 </tr>
             </tbody>
         </table>
